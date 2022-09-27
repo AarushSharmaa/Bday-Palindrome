@@ -380,8 +380,7 @@ function clickHandler(e) {
             year: Number(listOfDate[0])
         }
     } else {
-        alert("Do not leave the field empty. Please fill it. ");
-
+        resultRef.innerText = "Please do not leave the field empty."
     }
 
 
